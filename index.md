@@ -22,23 +22,29 @@ In recent years we witnessed a huge development in machine learning, especially 
  - Pataki Bálint Ármin
  - Bagoly Attila (former)
 
+# News
+ - Second [Kaggle challenge](https://www.kaggle.com/t/21783f42bab34fc79e7df8601fff3b33) is launched. The deadline is 19th May.
+ - The deadline for the first [Kaggle challenge](https://www.kaggle.com/t/5f7d3f26e4714aea9692b185653da35d) is the end of March.
+ - If github wouldn't render the notebooks you may try [here](https://nbviewer.jupyter.org/github/patbaa/physdl/tree/master/notebooks/) via nbviewer. Or you can also download the notebooks and open them locally.
+ 
+
 # SYLLABUS (planned)
 ### to be updated
 
-| week        | topics          | instructor | materials | assignments |
+| week        | topics          | instructor | materials | date |
 |:-------------|:------------------|:------|:------|:------|
-|  1 | course introduction, technical details     | Csabai István       | [info](http://patbaa.web.elte.hu/physdl/01_technical_info.pdf), [DL introduction](http://patbaa.web.elte.hu/physdl/01_deeplearning_intro.pdf) | |
-|  2 | validation, machine learning methods       | Ribli Dezső         | [ML intro](http://dkrib.web.elte.hu/deeplearning/course_slides/machine_learning_intro.pdf),  [ML model zoo notebook](https://github.com/patbaa/physdl/blob/master/notebooks/02/machine_learning_model_zoo.ipynb),  [regularization notebook](https://github.com/patbaa/physdl/blob/master/notebooks/02/regluarization.ipynb)| |
-|  3 | fully connected neural networks            | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/03_fully_connected.pdf), [first NN notebook](https://github.com/patbaa/physdl/blob/master/notebooks/03/fully_connected.ipynb) | |
-|  4 | backpropagation, optimizers                |  |  | |
-|  5 | convolution, convolutional neural networks |  |  | |
-|  6 | CNN architectures, deep learning tricks    |  |  | |
-|  7 | CNN implementation in Keras                |  |  | |
-|  8 | Adversarial examples                       |  |  | |
-|  9 | Object detection                           |  |  | |
-| 10 | word embedding                             |  |  | |
-| 11 | face recognition                           |  |  | |
-| 12 | Generative Adversarial Networks            |  |  | |
+|  1 | course introduction, technical details     | Csabai István       | [info](http://patbaa.web.elte.hu/physdl/01_technical_info.pdf), [DL introduction](http://patbaa.web.elte.hu/physdl/01_deeplearning_intro.pdf) | 2019.02.18. |
+|  2 | machine learning       | Ribli Dezső         | [ML intro](http://dkrib.web.elte.hu/deeplearning/course_slides/machine_learning_intro.pdf),  [ML model zoo notebook](https://github.com/patbaa/physdl/blob/master/notebooks/02/machine_learning_model_zoo.ipynb),  [regularization notebook](https://github.com/patbaa/physdl/blob/master/notebooks/02/regluarization.ipynb)| 2019.02.25. |
+|  3 | fully connected neural networks            | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/03_fully_connected.pdf), [first NN notebook](https://github.com/patbaa/physdl/blob/master/notebooks/03/fully_connected.ipynb) | 2019.03.04. |
+|  4 | more about neural networks                | Ribli Dezső | [PDF](http://dkrib.web.elte.hu/deeplearning/course_slides/04_nn.pdf)   | 2019.03.11. |
+|  5 | convolution, convolutional neural networks | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/05_cnn.pdf), [first CNN notebook](https://github.com/patbaa/physdl/blob/master/notebooks/05/cnn.ipynb) | 2019.03.18. |
+|  6 | Practical computer vision, inference with pre trained models and fine tuning    | Ribli Dezső | [inference notebook](https://colab.research.google.com/github/riblidezso/wigner_dl_demo/blob/master/imagenet_inference.ipynb),  [fine tuning notebook](https://colab.research.google.com/github/riblidezso/wigner_dl_demo/blob/master/fine_tuning.ipynb)  | 2019.03.25. |
+|  7 | Modern CNN architectures              | Ribli Dezső | [architectures notebook](https://colab.research.google.com/github/patbaa/physdl/blob/master/notebooks/07/architectures.ipynb) | 2019.04.01. |
+|  8 | Adversarial examples                       | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/08_adversarial.pdf), [notebook](https://colab.research.google.com/github/patbaa/physdl/blob/master/notebooks/08/adversarial.ipynb) | 2019.04.08. |
+|  9 | object detection, segmentation          | Ribli Dezső | [slides](http://dkrib.web.elte.hu/deeplearning/course_slides/detseg.pdf) | 2019.04.15. |
+| 10 | NLP, word2vec                           | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/10_NLP.pdf), [w2v_train](https://github.com/patbaa/physdl/blob/master/notebooks/10/train_word2vec_on_wikipedia_corpus.ipynb), [embeddings](https://github.com/patbaa/physdl/blob/master/notebooks/10/word2vec_application.ipynb)  | 2019.04.29. |
+| 11 | Sequential models, Recurrent Neural Networks                  | Pataki Bálint Ármin | [PDF](http://patbaa.web.elte.hu/physdl/11_RNN.pdf), [LSTM notebook](https://colab.research.google.com/github/patbaa/physdl/blob/master/notebooks/11/LSTM.ipynb) | 2019.05.06. |
+| 12 | Visualization, self-supervised learning, physics           | Ribli Dezső | [slides](http://dkrib.web.elte.hu/deeplearning/course_slides/viz_selfsup_games_physics.pdf) [notebook](https://colab.research.google.com/github/patbaa/physdl/blob/master/notebooks/07/model_vis.ipynb)| 2019.05.13. |
 
 # PREREQUISITES
  - basic linear algebra
@@ -49,6 +55,8 @@ In recent years we witnessed a huge development in machine learning, especially 
 During the semester there will be two Kaggle in-class challenges. Grades will be recieved by successful participation in them.
 - [Fist kaggle challenge](https://www.kaggle.com/c/photometric-redshift-estimation-2019)
   - It's a limited competition: [Participation link](https://www.kaggle.com/t/5f7d3f26e4714aea9692b185653da35d)
+- [Second kaggle challenge](https://www.kaggle.com/c/sportify-physdl)
+  - It's a limited competition: [Participation link](https://www.kaggle.com/t/21783f42bab34fc79e7df8601fff3b33)
 
 # Materials
  - [Python for Data Science, Coursera](https://www.coursera.org/learn/python-for-applied-data-science)
